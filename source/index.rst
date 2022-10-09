@@ -7,8 +7,25 @@
 ==========================================
 
 .. toctree::
-   :maxdepth: 3
+   :caption: 性能诊断
    :titlesonly:
+   :maxdepth: 1
+   :glob:
+
+   analyse/mem/index
+
+.. toctree::
+   :caption: 系统配置
+   :titlesonly:
+   :maxdepth: 1
+   :glob:
+
+   config/net/index
+
+.. toctree::
+   :caption: 其他
+   :titlesonly:
+   :maxdepth: 1
 
    misc/index
 
