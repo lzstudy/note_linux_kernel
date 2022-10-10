@@ -15,6 +15,14 @@
    analyse/mem/index
 
 .. toctree::
+   :caption: 系统调试
+   :titlesonly:
+   :maxdepth: 1
+   :glob:
+
+   debug/strace/index
+
+.. toctree::
    :caption: 系统配置
    :titlesonly:
    :maxdepth: 1
