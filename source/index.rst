@@ -21,6 +21,7 @@
    :glob:
 
    debug/strace/index
+   debug/gdb/index
 
 .. toctree::
    :caption: 系统配置
