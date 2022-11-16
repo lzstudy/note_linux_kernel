@@ -1,10 +1,9 @@
-XXX
+ftrace
 ========================================
 
 .. toctree::
    :maxdepth: 3
 
-   analyse/index
-   debug/index
-   config/index
-   index_root
+   base
+   func
+   graph

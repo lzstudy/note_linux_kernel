@@ -1,10 +1,8 @@
-XXX
+性能分析
 ========================================
 
 .. toctree::
    :maxdepth: 3
 
-   analyse/index
-   debug/index
-   config/index
-   index_root
+   mem/index
+   perf/index

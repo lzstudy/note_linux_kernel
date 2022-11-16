@@ -1,10 +1,9 @@
-XXX
+系统调试
 ========================================
 
 .. toctree::
    :maxdepth: 3
 
-   analyse/index
-   debug/index
-   config/index
-   index_root
+   gdb/index
+   strace/index
+   ftrace/index

@@ -1,4 +1,4 @@
-gdb调试
+kgdb
 ==========
 
 .. toctree::

@@ -1,4 +1,4 @@
-strace使用
+strace
 ==========
 
 .. toctree::

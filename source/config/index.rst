@@ -1,10 +1,7 @@
-XXX
+系统配置
 ========================================
 
 .. toctree::
    :maxdepth: 3
 
-   analyse/index
-   debug/index
-   config/index
-   index_root
+   net/index
