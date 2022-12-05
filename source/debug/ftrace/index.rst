@@ -7,3 +7,4 @@ ftrace
    base
    func
    graph
+   kprobe
