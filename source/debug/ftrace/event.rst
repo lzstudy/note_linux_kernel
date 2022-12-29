@@ -65,7 +65,7 @@ uprobe_profile 动态事件触发次数
 3.1 流程
 ********
 
-.. code-block:: c
+.. code-block:: shell
 
    # 1 关闭trace
    echo 0 > tracing_on 

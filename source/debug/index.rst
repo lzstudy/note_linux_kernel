@@ -7,3 +7,4 @@
    gdb/index
    strace/index
    ftrace/index
+   probe/index

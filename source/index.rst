@@ -5,4 +5,4 @@ XXX
    :maxdepth: 3
 
    debug/index
-   index_root
+   misc/index

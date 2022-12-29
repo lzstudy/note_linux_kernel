@@ -1,11 +1,8 @@
-ftrace
+调试探针
 ========================================
 
 .. toctree::
    :maxdepth: 3
 
-   base
-   func
-   graph
-   event
    kprobe
+   uprobe
