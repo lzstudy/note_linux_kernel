@@ -1,9 +1,9 @@
-XXX
+基础编程
 ========================================
 
 .. toctree::
    :maxdepth: 3
 
-   debug/index
-   base/index
-   misc/index
+   base
+   list
+
