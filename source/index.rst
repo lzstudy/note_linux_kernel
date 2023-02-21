@@ -4,6 +4,6 @@ XXX
 .. toctree::
    :maxdepth: 3
 
-   debug/index
    base/index
+   debug/index
    misc/index
