@@ -1,4 +1,4 @@
-XXX
+Linux内核编程
 ========================================
 
 .. toctree::
@@ -6,5 +6,4 @@ XXX
 
    base/index
    debug/index
-   isr/index
    misc/index
