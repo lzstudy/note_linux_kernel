@@ -7,4 +7,5 @@ Linux内核编程
    base/index
    debug/index
    proc/index
+   mem/index
    misc/index
