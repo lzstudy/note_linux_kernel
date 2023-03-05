@@ -8,5 +8,6 @@
    list
    fifo
    isr
+   sync
    timer
 
