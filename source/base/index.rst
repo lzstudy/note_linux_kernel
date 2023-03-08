@@ -8,6 +8,7 @@
    list
    fifo
    isr
+   kthread
    sync
    timer
 
