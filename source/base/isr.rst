@@ -117,6 +117,11 @@
     # 4 取消workqueue
     cancel_delayed_work(&work);
 
+.. note:: 
+    
+    - 多个工作队列同级FIFO模式, 优先级高先执行
+    - 同一工作队列内部按时间先后执行
+
     
 
 
