@@ -26,4 +26,4 @@ function tracer用于跟踪函数的栈回溯
     # 查看结果
     cat trace
 
-.. image:: ./bt.jpg
+.. image:: .images/bt.jpg

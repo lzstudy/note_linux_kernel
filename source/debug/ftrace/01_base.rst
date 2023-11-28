@@ -8,6 +8,13 @@ ftrace是内核trace子系统的一种, ftrace下又细分为
 function tracre、graph tracer、event tracer等. 
 ftrace工作在虚拟文件系统之上(debugfs/tracefs)
 
+========================= =========================================
+tracer类型                 功能说明
+function                  常用向上查看(栈回溯), 配合stack使用才会直观
+function_graph            用于向下查看(观察此函数解析来会做什么)
+kprobe                    
+========================= =========================================
+
 1.1 学习路线
 *************
 

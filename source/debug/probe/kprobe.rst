@@ -4,12 +4,12 @@
 1. kprobe
 --------------
 
-kprobe可以再某个函数执行前和执行后加入处理
+    kprobe可以再某个函数执行前和执行后加入处理, 直接修改参考程序简单修改即可
 
 .. code-block:: c
 
     # 1 打开参考代码
-    vi kernel/samples/kprobes/kprobe_example.c
+    vi ${linux}/samples/kprobes/kprobe_example.c
 
     # 2 修改要调试的符号
     static char symbol[MAX_SYMBOL_LEN] = "isp_s_comp";
@@ -31,10 +31,13 @@ kprobe可以再某个函数执行前和执行后加入处理
 2. jprobe
 -------------
 
+    需要jprobe函数和检测函数相同
+
+
 3. kretprobe
 --------------
 
-kretprobe用于查看函数的返回值
+    kretprobe用于查看函数的返回值
 
 .. code-block:: c
 
@@ -52,6 +55,7 @@ kretprobe用于查看函数的返回值
 
 .. code-block:: c
 
+    # 在kprobe.c中添加如下内容
     #include <asm/current.h>
     pr_info("process is %s pid = %d\n", current->comm, current->pid);
 

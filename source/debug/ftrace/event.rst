@@ -34,7 +34,7 @@ set_event 要追踪的事件
    # 5 打开
    echo 1 > tracing_on 
 
-   # 6 报错数据
+   # 6 保存数据, 可用于kernelshark, perf等
    cat trace_pipe > /tmp/trace.out &
 
 2.2 查看支持的event
