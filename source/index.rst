@@ -1,11 +1,9 @@
-Linux内核编程
+Linux内核
 ========================================
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 5
 
-   base/index
-   debug/index
-   proc/index
-   mem/index
-   misc/index
+   01_analyse/index
+   02_base/index
+   03_debug/index
